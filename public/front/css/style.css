@@ -1,0 +1,47 @@
+@font-face {
+        font-family: myFirstFont;
+        src: url('../fonts/dinnextltarabic.ttf');
+    }
+  body {
+    padding-top: 54px;
+    font-family: myFirstFont;
+    font-weight: bold;
+    background: #fbfbfb;
+  }
+  .container{
+        clear: both;
+  }
+  h2{
+      direction: rtl;
+      font-weight: bold;
+      font-size: 1.8rem;
+      text-shadow: 1px 1px 1px #d4d4d4;
+  }
+  iframe{
+      padding: 15px 0;
+  }
+  .top{
+      border-top: 1px solid #ddd;
+  }
+  footer{
+       position: absolute;
+        bottom: 0px;
+        width: 100%;
+        left: 0;
+  }
+  footer p{
+      padding-top:10px;
+  }
+  a{
+      color:#cf373a;
+  }
+  a:hover{
+      color:#6b6b6b;
+  }
+  
+  @media (max-width: 1200px) {
+      footer{
+          position: relative;
+          margin-top: 40px;
+      }
+  }
